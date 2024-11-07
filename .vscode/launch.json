@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "command": "node app.js",
+            "name": "Run node app.js",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
