@@ -32,9 +32,9 @@ app.engine('ejs', ejsMate);  // use ejs-locals for all ejs templates:
 app.use(express.static(path.join(__dirname, "/public")));
 
 
-app.get("/", (req, res)=>{
-    res.send("hii I am root");
-})
+// app.get("/", (req, res)=>{
+//     res.send("hii I am root");
+// })
 
 
 app.use("/listings", listings);
